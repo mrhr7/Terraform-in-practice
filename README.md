@@ -1,5 +1,5 @@
 # Terraform-in-practice
-Terraform in practice like an expert 
+Terraform in practice like an expert.
 
 Here we want to explore how experts use Terraform as their IaC tool day by day.
 
