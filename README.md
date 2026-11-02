@@ -1,6 +1,6 @@
-# Terraform in Practice
+﻿# Terraform in Practice
 
-**Terraform from Zero to Certified** — Companion code and hands-on exercises for the [DevOps in Practice](https://www.youtube.com/@DevOps-in-Practice) Terraform video series.
+**Terraform from Zero to Certified** — Companion code and hands-on exercises for the [DevOps in Practice](https://www.youtube.com/@devopsinpractice473) Terraform video series.
 
 This repository contains 23 self-contained, hands-on episodes designed to take you from total beginner to passing the **HashiCorp Certified: Terraform Associate (004)** exam while learning production-grade infrastructure as code practices.
 
@@ -12,29 +12,29 @@ Every demo is completely credential-free, utilizing official standard providers 
 
 | # | Episode Title | Code Directory | Video |
 |---|---------------|----------------|-------|
-| 01 | [What Is Terraform? Infrastructure as Code Explained](./ep01_what_is_terraform/) | [`ep01_what_is_terraform`](./ep01_what_is_terraform/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 02 | [Install Terraform and Master the Core Workflow](./ep02_install_and_workflow/) | [`ep02_install_and_workflow`](./ep02_install_and_workflow/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 03 | [Terraform Providers Explained: Registry, Versions and the Lock File](./ep03_providers/) | [`ep03_providers`](./ep03_providers/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 04 | [Terraform Resources, References and the Dependency Graph](./ep04_resources_and_dependencies/) | [`ep04_resources_and_dependencies`](./ep04_resources_and_dependencies/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 05 | [Terraform Input Variables and Types Explained](./ep05_input_variables/) | [`ep05_input_variables`](./ep05_input_variables/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 06 | [Terraform Outputs and Locals Explained](./ep06_outputs_and_locals/) | [`ep06_outputs_and_locals`](./ep06_outputs_and_locals/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 07 | [Terraform State Deep Dive: Inspect, Drift and Refresh-Only](./ep07_state/) | [`ep07_state`](./ep07_state/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 08 | [Terraform Data Sources Explained](./ep08_data_sources/) | [`ep08_data_sources`](./ep08_data_sources/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 09 | [Terraform Expressions and Functions with terraform console](./ep09_expressions_and_functions/) | [`ep09_expressions_and_functions`](./ep09_expressions_and_functions/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 10 | [Terraform count vs for_each: Create Many Resources from One Block](./ep10_count_and_for_each/) | [`ep10_count_and_for_each`](./ep10_count_and_for_each/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 11 | [Terraform depends_on and lifecycle: Control Order and Replacement](./ep11_depends_on_and_lifecycle/) | [`ep11_depends_on_and_lifecycle`](./ep11_depends_on_and_lifecycle/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 12 | [Terraform Custom Conditions: Validation, Preconditions, Postconditions and Checks](./ep12_custom_conditions/) | [`ep12_custom_conditions`](./ep12_custom_conditions/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 13 | [Terraform Sensitive Data: sensitive, State Secrets, Ephemeral Values and Vault](./ep13_sensitive_data/) | [`ep13_sensitive_data`](./ep13_sensitive_data/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 14 | [Using Terraform Modules: Sources, Versions and Outputs](./ep14_using_modules/) | [`ep14_using_modules`](./ep14_using_modules/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 15 | [Writing Your Own Terraform Module: Structure and Variable Scope](./ep15_writing_modules/) | [`ep15_writing_modules`](./ep15_writing_modules/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 16 | [Terraform Backends, State Locking and Remote State](./ep16_backends_and_remote_state/) | [`ep16_backends_and_remote_state`](./ep16_backends_and_remote_state/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 17 | [Terraform CLI Workspaces: One Configuration, Many States](./ep17_workspaces/) | [`ep17_workspaces`](./ep17_workspaces/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 18 | [Importing Existing Infrastructure into Terraform](./ep18_import/) | [`ep18_import`](./ep18_import/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 19 | [Refactoring Terraform Safely: moved, removed and -replace](./ep19_refactoring/) | [`ep19_refactoring`](./ep19_refactoring/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 20 | [Terraform Test and TF_LOG: Testing and Troubleshooting Your Code](./ep20_testing_and_troubleshooting/) | [`ep20_testing_and_troubleshooting`](./ep20_testing_and_troubleshooting/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 21 | [HCP Terraform Explained: Remote Runs, terraform login and the cloud Block](./ep21_hcp_terraform_workflow/) | [`ep21_hcp_terraform_workflow`](./ep21_hcp_terraform_workflow/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 22 | [HCP Terraform for Teams: Projects, Variable Sets, Run Triggers and Policy](./ep22_hcp_terraform_governance/) | [`ep22_hcp_terraform_governance`](./ep22_hcp_terraform_governance/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
-| 23 | [Terraform Associate 004 Exam Recap: Every Objective in One Episode](./ep23_exam_recap/) | [`ep23_exam_recap`](./ep23_exam_recap/) | [Watch Video](https://www.youtube.com/@DevOps-in-Practice) |
+| 01 | [What Is Terraform? Infrastructure as Code Explained](./ep01_what_is_terraform/) | [`ep01_what_is_terraform`](./ep01_what_is_terraform/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 02 | [Install Terraform and Master the Core Workflow](./ep02_install_and_workflow/) | [`ep02_install_and_workflow`](./ep02_install_and_workflow/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 03 | [Terraform Providers Explained: Registry, Versions and the Lock File](./ep03_providers/) | [`ep03_providers`](./ep03_providers/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 04 | [Terraform Resources, References and the Dependency Graph](./ep04_resources_and_dependencies/) | [`ep04_resources_and_dependencies`](./ep04_resources_and_dependencies/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 05 | [Terraform Input Variables and Types Explained](./ep05_input_variables/) | [`ep05_input_variables`](./ep05_input_variables/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 06 | [Terraform Outputs and Locals Explained](./ep06_outputs_and_locals/) | [`ep06_outputs_and_locals`](./ep06_outputs_and_locals/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 07 | [Terraform State Deep Dive: Inspect, Drift and Refresh-Only](./ep07_state/) | [`ep07_state`](./ep07_state/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 08 | [Terraform Data Sources Explained](./ep08_data_sources/) | [`ep08_data_sources`](./ep08_data_sources/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 09 | [Terraform Expressions and Functions with terraform console](./ep09_expressions_and_functions/) | [`ep09_expressions_and_functions`](./ep09_expressions_and_functions/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 10 | [Terraform count vs for_each: Create Many Resources from One Block](./ep10_count_and_for_each/) | [`ep10_count_and_for_each`](./ep10_count_and_for_each/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 11 | [Terraform depends_on and lifecycle: Control Order and Replacement](./ep11_depends_on_and_lifecycle/) | [`ep11_depends_on_and_lifecycle`](./ep11_depends_on_and_lifecycle/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 12 | [Terraform Custom Conditions: Validation, Preconditions, Postconditions and Checks](./ep12_custom_conditions/) | [`ep12_custom_conditions`](./ep12_custom_conditions/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 13 | [Terraform Sensitive Data: sensitive, State Secrets, Ephemeral Values and Vault](./ep13_sensitive_data/) | [`ep13_sensitive_data`](./ep13_sensitive_data/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 14 | [Using Terraform Modules: Sources, Versions and Outputs](./ep14_using_modules/) | [`ep14_using_modules`](./ep14_using_modules/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 15 | [Writing Your Own Terraform Module: Structure and Variable Scope](./ep15_writing_modules/) | [`ep15_writing_modules`](./ep15_writing_modules/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 16 | [Terraform Backends, State Locking and Remote State](./ep16_backends_and_remote_state/) | [`ep16_backends_and_remote_state`](./ep16_backends_and_remote_state/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 17 | [Terraform CLI Workspaces: One Configuration, Many States](./ep17_workspaces/) | [`ep17_workspaces`](./ep17_workspaces/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 18 | [Importing Existing Infrastructure into Terraform](./ep18_import/) | [`ep18_import`](./ep18_import/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 19 | [Refactoring Terraform Safely: moved, removed and -replace](./ep19_refactoring/) | [`ep19_refactoring`](./ep19_refactoring/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 20 | [Terraform Test and TF_LOG: Testing and Troubleshooting Your Code](./ep20_testing_and_troubleshooting/) | [`ep20_testing_and_troubleshooting`](./ep20_testing_and_troubleshooting/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 21 | [HCP Terraform Explained: Remote Runs, terraform login and the cloud Block](./ep21_hcp_terraform_workflow/) | [`ep21_hcp_terraform_workflow`](./ep21_hcp_terraform_workflow/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 22 | [HCP Terraform for Teams: Projects, Variable Sets, Run Triggers and Policy](./ep22_hcp_terraform_governance/) | [`ep22_hcp_terraform_governance`](./ep22_hcp_terraform_governance/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
+| 23 | [Terraform Associate 004 Exam Recap: Every Objective in One Episode](./ep23_exam_recap/) | [`ep23_exam_recap`](./ep23_exam_recap/) | [Watch Video](https://www.youtube.com/@devopsinpractice473) |
 
 ---
 
@@ -95,4 +95,4 @@ In addition to standard Terraform, this series explores industry-standard tools:
 ## 📺 Channel & Community
 
 Follow the complete video series on YouTube:  
-👉 **[DevOps in Practice on YouTube](https://www.youtube.com/@DevOps-in-Practice)**
+👉 **[DevOps in Practice on YouTube](https://www.youtube.com/@devopsinpractice473)**

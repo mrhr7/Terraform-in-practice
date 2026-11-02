@@ -18,4 +18,4 @@ terraform apply tfplan
 ```
 
 ---
-[Back to series index](../README.md) | [Watch the video](https://youtube.com/@DevOps-in-Practice)
+[Back to series index](../README.md) | [Watch the video](https://youtube.com/@devopsinpractice473)
