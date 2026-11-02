@@ -1,0 +1,11 @@
+# Reference only. Rename to cloud.tf to connect this directory to HCP Terraform.
+terraform {
+  cloud {
+    organization = "devops-in-practice" # your HCP Terraform organization
+    # hostname   = "app.terraform.io"   # the default
+
+    workspaces {
+      name = "pets-dev" # or: tags = { app = "pets" }
+    }
+  }
+}

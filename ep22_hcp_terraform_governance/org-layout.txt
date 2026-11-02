@@ -1,0 +1,8 @@
+Organization: devops-in-practice
+  Project: networking            team access: net-team (admin), app-team (read)
+    Workspace: network-dev       variable set: dev-defaults
+    Workspace: network-prod      variable set: prod-defaults
+  Project: apps                  team access: app-team (write)
+    Workspace: app-dev           run trigger <- network-dev
+    Workspace: app-prod          run trigger <- network-prod
+Policy sets: global "tagging-rules" (advisory), project "apps" "no-public-ips" (mandatory)

@@ -1,0 +1,4 @@
+Welcome to the ${env} environment.
+%{ for name, port in ports ~}
+- ${name} listens on port ${port}
+%{ endfor ~}

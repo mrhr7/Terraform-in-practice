@@ -1,0 +1,8 @@
+# CLI-driven workflow with HCP Terraform (needs a free account)
+terraform login    # browser opens, create a token, paste it back
+terraform init     # connects to the workspace, offers to migrate local state
+terraform plan     # runs remotely, output streams to this terminal
+terraform apply    # remote apply, confirm here or in the HCP Terraform UI
+
+# In CI, skip login and set a token in the environment instead:
+#   export TF_TOKEN_app_terraform_io=<team or user token>

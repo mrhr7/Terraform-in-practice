@@ -1,0 +1,15 @@
+# Reference only: Terraform ignores files that do not end in .tf
+# A write-only argument (Terraform 1.11+) accepts an ephemeral value
+# and never stores it in plan or state.
+ephemeral "random_password" "db" {
+  length = 20
+}
+
+resource "aws_db_instance" "main" {
+  engine              = "postgres"
+  instance_class      = "db.t3.micro"
+  allocated_storage   = 5
+  username            = "app"
+  password_wo         = ephemeral.random_password.db.result
+  password_wo_version = 1 # bump to rotate the password
+}

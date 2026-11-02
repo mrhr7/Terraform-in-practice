@@ -1,0 +1,16 @@
+# Reference only: Terraform ignores files that do not end in .tf
+# Registry module: <NAMESPACE>/<NAME>/<PROVIDER>, pinned with version
+module "vpc" {
+  source  = "terraform-aws-modules/vpc/aws"
+  version = "~> 6.0"
+}
+
+# Git repository, pinned to a tag with ?ref=
+module "network" {
+  source = "git::https://example.com/network.git?ref=v1.2.0"
+}
+
+# Local path: must start with ./ or ../ (no version argument)
+module "web" {
+  source = "./modules/pet-file"
+}
