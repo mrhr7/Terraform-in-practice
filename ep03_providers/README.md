@@ -7,6 +7,7 @@ What Terraform providers are, how required_providers source addresses and versio
 ## Files
 
 - [`main.tf`](./main.tf)
+- [`terraform.tf`](./terraform.tf)
 
 ## Quick Start
 
