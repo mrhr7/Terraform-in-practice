@@ -8,6 +8,7 @@ Parameterize Terraform with input variables. Declaring variable blocks with type
 
 - [`main.tf`](./main.tf)
 - [`terraform.tf`](./terraform.tf)
+- [`variables.tf`](./variables.tf)
 
 ## Quick Start
 
