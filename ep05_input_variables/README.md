@@ -12,9 +12,21 @@ Parameterize Terraform with input variables. Declaring variable blocks with type
 
 ## Quick Start
 
+`server` is a required variable, so the first plan stops with an error, just like in the video. Give it a value in `terraform.tfvars`, then plan and apply:
+
 ```bash
 cd ep05_input_variables
 terraform init
+terraform plan -input=false
+
+cat > terraform.tfvars <<'EOT'
+server = {
+  owner = "alice"
+  ports = [80, 443]
+  tags  = { team = "platform" }
+}
+EOT
+
 terraform plan -out=tfplan
 terraform apply tfplan
 ```

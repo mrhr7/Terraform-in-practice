@@ -6,13 +6,21 @@ Local values for naming and reuse, and output values to expose results. Defining
 
 ## Files
 
+- [`main.tf`](./main.tf)
+- [`outputs.tf`](./outputs.tf)
+- [`secrets.tf`](./secrets.tf)
 - [`terraform.tf`](./terraform.tf)
 
 ## Quick Start
 
+`secrets.tf` starts without `sensitive = true`, so the first plan stops with an error, just like in the video. Add that line to the `db_password` output, then plan and apply:
+
 ```bash
 cd ep06_outputs_and_locals
 terraform init
+terraform plan
+
+# In secrets.tf, add sensitive = true to the db_password output, then:
 terraform plan -out=tfplan
 terraform apply tfplan
 ```
