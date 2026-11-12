@@ -1,6 +1,6 @@
 ﻿# Episode 07: Terraform State Deep Dive: Inspect, Drift and Refresh-Only
 
-Why Terraform keeps state, what is inside terraform.tfstate, why it can contain secrets, how to inspect it safely with terraform state list, state show and show, and how to detect drift with refresh-only plans. Credential-free demo with the random and local providers.
+Why Terraform keeps state, what is inside terraform.tfstate, why it can contain secrets, how to inspect it safely with terraform state list, state show and show, and how to detect drift with refresh-only plans. Credential-free demo with terraform_data and the local provider.
 
 **Exam objectives:** 2d, 6d, 7b
 

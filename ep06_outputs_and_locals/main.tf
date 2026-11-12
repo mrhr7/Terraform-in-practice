@@ -4,15 +4,15 @@ variable "environment" {
 }
 
 locals {
-  name_prefix = "dip-${var.environment}"
+  name_prefix = "app-${var.environment}"
   common_tags = {
     environment = var.environment
     managed_by  = "terraform"
   }
 }
 
-resource "random_pet" "app" {
-  prefix = local.name_prefix
+resource "terraform_data" "app_server" {
+  input = "${local.name_prefix}-server-01"
 }
 
 resource "local_file" "config" {
