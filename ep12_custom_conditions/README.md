@@ -7,7 +7,9 @@ Add guard rails to Terraform configuration. Input variable validation blocks, pr
 ## Files
 
 - [`config.json`](./config.json)
+- [`main.tf`](./main.tf)
 - [`terraform.tf`](./terraform.tf)
+- [`variables.tf`](./variables.tf)
 
 ## Quick Start
 

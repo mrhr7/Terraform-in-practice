@@ -1,6 +1,6 @@
 ﻿# Episode 06: Terraform Outputs and Locals Explained
 
-Local values for naming and reuse, and output values to expose results. Defining locals, output blocks with description and sensitive, why Terraform refuses to output secrets unless you mark them sensitive, terraform output with -raw and -json, and how one local change ripples through a plan. Credential-free demo with the random and local providers.
+Local values for naming and reuse, and output values to expose results. Defining locals, output blocks with description and sensitive, why Terraform refuses to output secrets unless you mark them sensitive, terraform output with -raw and -json, and how one local change ripples through a plan. Credential-free demo with terraform_data and the random and local providers.
 
 **Exam objectives:** 4c
 

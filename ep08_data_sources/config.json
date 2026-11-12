@@ -1,5 +1,5 @@
 {
-  "team": "platform",
-  "owner": "alice",
-  "replicas": 3
+  "environment": "staging",
+  "owner": "platform-team",
+  "server_count": 3
 }

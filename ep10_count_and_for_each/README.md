@@ -6,6 +6,7 @@ Use the count and for_each meta-arguments to create several resource instances f
 
 ## Files
 
+- [`main.tf`](./main.tf)
 - [`terraform.tf`](./terraform.tf)
 
 ## Quick Start

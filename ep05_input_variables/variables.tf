@@ -4,9 +4,9 @@ variable "prefix" {
   default     = "web"
 }
 
-variable "pet_length" {
+variable "server_number" {
   type    = number
-  default = 2
+  default = 1
 }
 
 variable "server" {

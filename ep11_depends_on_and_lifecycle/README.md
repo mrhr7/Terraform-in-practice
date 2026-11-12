@@ -6,6 +6,7 @@ The depends_on meta-argument for hidden dependencies, and the lifecycle block wi
 
 ## Files
 
+- [`main.tf`](./main.tf)
 - [`terraform.tf`](./terraform.tf)
 
 ## Quick Start
